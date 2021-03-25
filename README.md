@@ -23,7 +23,7 @@ Table of contents:
 ## Introduction
 
 CEF Python is an open source project founded by
-[Czarek Tomczak](https://drive.google.com/file/d/17xmoT5Z_zTHkVclqPzrs2aAV64Uiu7fh/view)
+[Czarek Tomczak](https://www.linkedin.com/in/czarektomczak/)
 in 2012 to provide Python bindings for the
 [Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef) (CEF).
 The Chromium project focuses mainly on Google Chrome application
@@ -55,30 +55,29 @@ PyGame, PyOpenGL, PyWin32, PySide and PySDL2.
 <td width="50%" valign="top">
 
 <p align="center">
- <a href="https://lampix.com/">
-  <img src="https://raw.githubusercontent.com/wiki/cztomczak/cefpython/images/lampix360.png">
- </a>
-</p>
-
-Many Thanks to Lampix for sponsoring the
-[v66 release](../../releases/tag/v66.0). Lampix is the first hardware
-and software solution that turns any surface into a smart, augmented reality
-or interactive surface. Please visit their website:
-<a href="https://lampix.com/">Lampix.com</a>
-
-</td><td width="50%" valign="top">
-
-<p align="center">
  <a href="https://www.fivestars.com/">
   <img src="https://raw.githubusercontent.com/wiki/cztomczak/cefpython/images/fivestars360.png">
  </a>
 </p>
 
-Many thanks to Fivestars for sponsoring the
-[v49 legacy release](../../releases/tag/v49.0). Fivestars helps local
-communities thrive by empowering small
-businesses with cutting edge marketing technology. Please visit their website:
+Thank you to Fivestars for sponsoring the [v66.1 release](../../releases/tag/v66.1)
+with Python 3.8 / 3.9 support. Fivestars helps local communities thrive by empowering
+small businesses with cutting edge marketing technology. Please visit their website:
 <a href="https://www.fivestars.com/">Fivestars.com</a>
+
+</td><td width="50%" valign="top">
+
+<p align="center">
+ <a href="https://lampix.com/">
+  <img src="https://raw.githubusercontent.com/wiki/cztomczak/cefpython/images/lampix360.png">
+ </a>
+</p>
+
+Thank you to Lampix for sponsoring the
+[v66 release](../../releases/tag/v66.0). Lampix is the first hardware
+and software solution that turns any surface into a smart, augmented reality
+or interactive surface. Please visit their website:
+<a href="https://lampix.com/">Lampix.com</a>
 
 </tr></table>
 
@@ -210,7 +209,7 @@ support old operating systems then choose the v31 release.
 
 OS | Py2 | Py3 | 32bit | 64bit | Requirements
 --- | --- | --- | --- | --- | ---
-Windows | 2.7 | 3.4 / 3.5 / 3.6 / 3.7 | Yes | Yes | Windows 7+
+Windows | 2.7 | 3.4 / 3.5 / 3.6 / 3.7 / 3.8 / 3.9 | Yes | Yes | Windows 7+ (Note that Python 3.9 supports Windows 8.1+)
 Linux | 2.7 | 3.4 / 3.5 / 3.6 / 3.7 | Yes | Yes | Debian 8+, Ubuntu 14.04+,<br> Fedora 24+, openSUSE 13.3+
 Mac | 2.7 | 3.4 / 3.5 / 3.6 / 3.7 | No | Yes | MacOS 10.9+
 
@@ -274,6 +273,8 @@ priority.
 
 ### Thanks to all
 
+* [2021] Thank you to [Fivestars](https://www.fivestars.com/) for sponsoring
+  the v66.1 release with Python 3.8 / 3.9 support
 * [2018] Thanks to [Fivestars](https://www.fivestars.com/) for sponsoring
   the v49 release for legacy systems (WinXP/Vista)
 * [2018] Many thanks to [Lampix](https://lampix.com/) for sponsoring the v66
@@ -317,7 +318,7 @@ notable are:
 
 If your company would like to sponsor CEF Python development efforts then
 please contact
-[Czarek](https://drive.google.com/file/d/17xmoT5Z_zTHkVclqPzrs2aAV64Uiu7fh/view).
+[Czarek](https://www.linkedin.com/in/czarektomczak/).
 Long term sponsorships are welcome and Czarek is open to ideas about
 the project. He would love to spend more time on developing this project,
 but he can't afford doing so in his free time. Currently there is no company

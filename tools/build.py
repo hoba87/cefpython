@@ -293,7 +293,7 @@ def setup_environ():
         print("[build.py] PYTHON_INCLUDE: {python_include}"
               .format(python_include=os.environ["PYTHON_INCLUDE"]))
 
-        os.environ["CEF_CCFLAGS"] = "-std=gnu++11 -DNDEBUG -Wall -Werror"
+        os.environ["CEF_CCFLAGS"] = "-std=gnu++11 -DNDEBUG -Wall -Werror -Wno-deprecated-declarations"
         if FAST_FLAG:
             os.environ["CEF_CCFLAGS"] += " -O0"
         else:
@@ -809,7 +809,7 @@ def build_cefpython_module():
             args = list()
             args.append("\"{python}\"".format(python=sys.executable))
             args.append(os.path.join(TOOLS_DIR, os.path.basename(__file__)))
-            assert __file__ in sys.argv[0]
+            assert os.path.basename(__file__) in sys.argv[0]
             args.extend(SYS_ARGV_ORIGINAL[1:])
             command = " ".join(args)
             print("[build.py] Running command: %s" % command)
